@@ -1,17 +1,14 @@
-# 🏠 House Price Prediction
+#  House Price Prediction
 
-## 📌 Project Overview
+##  Project Overview
 This project aims to predict house sale prices using Machine Learning techniques.  
 The model analyzes property features such as area, rooms, and other housing attributes to estimate the final sale price.
 
----
-
-## 🎯 Objective
+## Objective
 To build a regression model that accurately predicts house prices based on historical housing data.
 
----
 
-## 🛠️ Tools & Technologies Used
+##  Tools & Technologies Used
 - Python
 - Pandas
 - NumPy
@@ -19,9 +16,7 @@ To build a regression model that accurately predicts house prices based on histo
 - Scikit-learn
 - Jupyter Notebook
 
----
-
-## 📊 Dataset
+##  Dataset
 The dataset contains various house-related features including:
 
 - Lot Area
@@ -31,68 +26,54 @@ The dataset contains various house-related features including:
 - Neighborhood
 - Sale Price (Target Variable)
 
----
+## Project Workflow
 
-## 🔎 Project Workflow
-
-### 1️⃣ Data Loading
+### 1️ Data Loading
 - Imported dataset using Pandas
 
-### 2️⃣ Exploratory Data Analysis (EDA)
+### 2️ Exploratory Data Analysis (EDA)
 - Checked dataset shape & structure
 - Analyzed data types
 - Visualized correlations
 - Identified missing values
 
-### 3️⃣ Data Cleaning
+### 3️ Data Cleaning
 - Removed irrelevant columns (e.g., Id)
 - Handled missing values
 - Processed categorical features
 
-### 4️⃣ Feature Engineering
+### 4️ Feature Engineering
 - Applied One-Hot Encoding for categorical variables
 
-### 5️⃣ Train-Test Split
+### 5️ Train-Test Split
 - Split dataset into training (80%) and testing (20%)
 
-### 6️⃣ Model Building
+### 6️ Model Building
 Trained multiple regression models:
 
 - Linear Regression
 - Random Forest Regressor
 - Support Vector Machine (SVM)
 
-### 7️⃣ Model Evaluation
+### 7️ Model Evaluation
 Evaluated models using:
 
 - Mean Absolute Error (MAE)
 - Mean Absolute Percentage Error (MAPE)
 
----
-
-## 📉 Results
+##  Results
 Random Forest Regressor achieved the best performance with the lowest prediction error.
 
----
-
-## ✅ Key Learnings
+##  Key Learnings
 - Importance of data preprocessing
 - Handling missing values
 - Encoding categorical variables
 - Comparing ML models
 - Evaluating regression performance
 
----
-
-## 🚀 Future Improvements
+## Future Improvements
 - Hyperparameter tuning
 - Cross-validation
 - Feature importance visualization
 - Deployment using Flask / Streamlit
 
----
-
-## 👩‍💻 Author
-**Meghana Janga**
-
-Aspiring Data Analyst / ML Enthusiast
